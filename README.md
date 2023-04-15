@@ -8,7 +8,7 @@ NOTE:
  
       When set your SSH port change the code (Here is 8888)
       
-      block user and if you want to unblock use this:
+      This code lock the user and if you want to unlock use this:
       # sudo usermod --unlock "username"
       
       This script make a log file of username, PIDs of sshd service and IP addresses of source at /var/log/user_block.log
